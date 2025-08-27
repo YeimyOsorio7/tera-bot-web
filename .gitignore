@@ -1,0 +1,151 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+bower_components
+jspm_packages
+
+# Production builds
+dist
+build
+out
+.next
+.nuxt
+.vuepress/dist
+.serverless
+.fusebox
+
+# Local env files
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+.env.test
+.env.*
+!.env.example
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage
+*.lcov
+.nyc_output
+jest-results.json
+test-results/
+
+# Cache
+.cache
+.parcel-cache
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# React specific
+.react
+*.local
+
+# Vite
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# SSL Certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Misc
+*.orig
+*.bak
+*.tmp
+*.temp
+*.swp
+.grunt
+.lock-wscript
+*.tsbuildinfo
+
+# Bundle analysis
+stats.json
+webpack-stats.json
+bundle-report.html
+
+# Storybook
+storybook-static/
+build-storybook.log
+
+# PWA
+workbox-*.js
+sw.js
+service-worker.js
+
+# Production security
+config.production.js
