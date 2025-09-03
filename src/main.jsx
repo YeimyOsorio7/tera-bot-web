@@ -32,7 +32,6 @@ createRoot(document.getElementById('root')).render(
 
         {/* Rutas independientes sin layout principal */}
         <Route path="/login" element={<Login />} />
-        <Route path="/admin-panel" element={<AdminPanel />} />
 
         {/* Rutas protegidas con layout tipo dashboard */}
         <Route path="/admin" element={<AdminLayout />}>
@@ -40,7 +39,6 @@ createRoot(document.getElementById('root')).render(
           <Route path="conversaciones" element={<Conversaciones />} />
           <Route path="notas" element={<NotasClinicas />} />
           <Route path="estadisticas" element={<Estadisticas />} />
-          <Route path="recursos" element={<Recursos />} /> {/* ✅ añadida */}
           <Route path="registro" element={<RegistroPaciente />} />
           <Route path="pacientes" element={<VerPacientes />} />
         </Route>
